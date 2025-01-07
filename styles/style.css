@@ -1,0 +1,77 @@
+body{
+    background-image: url('../img/saque.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Alinha os itens em coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+}
+
+
+.caixa {
+    justify-content: center;
+    width: 350px;
+    height: 250px;
+    background-color: #6272cd;
+    padding: 3px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.resultado {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 50px;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+.title{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+.text{
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+}
+
+.input{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    border: none;
+}
+
+.button{
+    width: 150px;
+    background-color: #26ea0b;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
