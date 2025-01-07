@@ -1,7 +1,8 @@
 let cedulas = [100, 50, 20, 10, 5, 2]
 
 const saque = () => {
-    let valor = parseInt(document.getElementById('valor').value);
+    let valorInput = document.getElementById('valor');
+    let valor = parseInt(valorInput.value);
     let resultado = '';
     let count;
 
@@ -21,4 +22,6 @@ const saque = () => {
     }
 
     document.getElementById('resultado').innerHTML = resultado;
+
+    valorInput.value = '';
 }
